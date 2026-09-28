@@ -1,0 +1,3 @@
+# root vs IAM vs Shared Responsibility Model
+
+The root user is the account owner of the AWS account and has unrestricted access to everything, and can do certain actions that IAM user or roles cannot. IAM controls who can access AWS resources and what those people are allowed to do. IAM can create users, groups, roles, and policies. The shared responsibility model is a model between me and AWS; AWS is responsible for keeping the physical servers, hardware, and infrastructure secure, while I as the customer am responsible for IAM permissions, data, passwords/MFA, application code, etc. The shared responsibility model encompasses both the root and IAM.
