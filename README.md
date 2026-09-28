@@ -1,1 +1,1 @@
-"# AWS Cloud Engineer Journey" 
+# AWS Cloud Engineer Journey
