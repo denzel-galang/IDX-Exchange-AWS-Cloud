@@ -1,3 +1,3 @@
-# The Police of Least Privilege
+# The Policy of Least Privilege
 
 s3:PutObject and s3:GetObject are have a scope to objects inside one specific bucket only. This is scoped that way because s3-test-user only needs to upload and retrieve files from this one specific training bucket, which is why there's no reason to give broader S3 access, like for instance listing all buckets. This ultimately reinforces least privilege by granting no more access than what the task requires, and is why `aws s3 ls --profile s3test` failed with an `AccessDenied` error.
