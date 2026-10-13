@@ -82,6 +82,7 @@ curl http://<public-ip>:8080/properties/R100234
 - `/properties/R100234` returns the Sacramento listing
 
 **Screenshot:**
+
 ![Screenshot of working curl responses](https://i.postimg.cc/TYjbRcbm/curl-responses.png)
 
 ## 5. EBS snapshot (Lab 3.2)
