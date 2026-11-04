@@ -38,7 +38,7 @@ average CPU would actually cross the 50% target.
 **Gap between CPU spike and scale-out:** 2 minutes, 38 seconds
 
 ![CPU utilization during the test](cpu-spike.png)
-![ASG activity showing scale-out](scale-out-activity.png)
+![ASG activity showing scale-out](scale-out.png)
 
 ## What I learned
 - An ALB needs an explicit security group rule to reach its targets.
